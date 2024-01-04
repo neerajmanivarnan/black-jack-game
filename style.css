@@ -1,0 +1,69 @@
+h1{
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(173, 208, 196)    ;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#draw{
+    display: inline;
+}
+
+.btn-cls{
+
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover{
+    background-color: rgb(222, 177, 61);
+    cursor: pointer;
+}
+
+button{
+    font-weight: bold;
+    font-size: 20px;
+    color: #016f32;
+    border: none;
+    background-color: goldenrod;
+    width: 50%;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#mes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.container{
+    background-image: url("images/table.jpg");
+    background-size: cover;
+    width: 350px;
+    padding: 40px;
+    display: grid;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+
+}
