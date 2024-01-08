@@ -10,6 +10,16 @@ let isAlive=false;
 
 let message=""
 
+let player = {
+    playerName : "Neeraj",
+    playerChips : 100
+}
+
+let playerEl = document.getElementById("player-el")
+
+// console.log(playerEl.textContent);
+playerEl.textContent = player.playerName + " : ₹" + player.playerChips
+
 let mesEl = document.getElementById("mes")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.querySelector("#cards-el")
